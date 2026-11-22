@@ -1,0 +1,31 @@
+﻿# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.env.bak
+.env.example.bak
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Testing and temporary files
+.pytest_cache/
+*.bak
+*.log
+
+# Local model duplicate (keep models/model.pkl)
+/model.pkl
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# All backup versions
+*.bak*

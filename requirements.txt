@@ -1,0 +1,8 @@
+kafka-python
+psycopg2-binary
+scikit-learn
+pandas
+numpy
+streamlit
+plotly
+python-dotenv
